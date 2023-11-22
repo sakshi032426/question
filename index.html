@@ -1,0 +1,32 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Paper Generator</title>
+</head>
+<body>
+    <label for="total-marks">Enter Total Marks:</label>
+    <input type="number" id="total-marks" name="total-marks">
+    <button onclick="generateQuestions()">Generate Questions</button>
+
+    <div id="easy-section">
+        <h2>Easy Questions</h2>
+        <!-- Easy questions will be displayed here -->
+    </div>
+
+    <div id="medium-section">
+        <h2>Medium Questions</h2>
+        <!-- Medium questions will be displayed here -->
+    </div>
+
+    <div id="hard-section">
+        <h2>Hard Questions</h2>
+        <!-- Hard questions will be displayed here -->
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
